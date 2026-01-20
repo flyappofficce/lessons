@@ -1,0 +1,63 @@
+/* css/style.css */
+/* Уроки 8–18: стилі для онлайн-магазину */
+
+/* Базові стилі */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fc;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+/* Заголовки та навігація */
+header {
+  background-color: #b6bdd4;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #161718;
+}
+
+/* Секція товарів */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.product-card a:hover {
+  background-color: #1e40af;
+}
