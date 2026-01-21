@@ -65,14 +65,14 @@
 
 ```html
 <nav>
-  <a href="/products/categories.html">Категорії товарів</a>
-  <a href="/products/purchase_steps.html">Як купити</a>
-  <a href="/products/product_specs.html">Характеристики</a>
-  <a href="/products/order_form.html">Замовлення</a>
+  <a href="./products/categories.html">Категорії товарів</a>
+  <a href="./products/purchase_steps.html">Як купити</a>
+  <a href="./products/product_specs.html">Характеристики</a>
+  <a href="./products/order_form.html">Замовлення</a>
 </nav>
 ```
 
-* Додайте меню на всі сторінки після тегу `<body`, це дозволить користувачу переходити до форми замовлення з будь-якої сторінки.
+* Додайте меню на всі сторінки після тегу `<body`, це дозволить користувачу переходити до форми замовлення з будь-якої сторінки, враховуючи використання різних символів (``/`, `./`, `../`, ) у посиланнях, в залежності від їх розміщення у папках  
 * Додайте посилання на головну сторінку index.html
 
 ```html
