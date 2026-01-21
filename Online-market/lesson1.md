@@ -106,7 +106,7 @@
 
 ```bash
 git add .
-git commit -m "Оновлення проекту"
+git commit -m "lesson1"
 git push
 ```
 - Перевірте на GitHub: ваші файли повинні з’явитися у репозиторії.

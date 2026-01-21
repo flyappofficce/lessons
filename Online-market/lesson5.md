@@ -19,10 +19,10 @@
 <header>
   <h1>Мій Онлайн-Магазин</h1>
   <nav>
-    <a href="products/categories.html">Категорії товарів</a>
-    <a href="products/purchase_steps.html">Як купити</a>
-    <a href="products/product_specs.html">Характеристики</a>
-    <a href="products/order_form.html">Замовлення</a>
+    <a href="./products/categories.html">Категорії товарів</a>
+    <a href="./products/purchase_steps.html">Як купити</a>
+    <a href="./products/product_specs.html">Характеристики</a>
+    <a href="./products/order_form.html">Замовлення</a>
   </nav>
 </header>
 
@@ -65,7 +65,7 @@
 
 ## Крок 3. Використання `<article>` для окремих товарів
 
-1. На сторінці `products/categories.html` або в секції "Популярні товари" додаємо картки товарів:
+1. На сторінці `index.html` де ми додавали посилання на зображення та сторінки товарів додаємо картки товарів:
 
 ```html
 <section id="featured-products">
@@ -96,6 +96,12 @@
   <a href="#new-arrivals">Новинки</a>
 </nav>
 ```
+  > ⚠️ Зверніть увагу на посилання
+  * символ # означає посилання всередині цієї ж сторінки
+  * featured-products — це id елемента, до якого ми переходимо
+  * браузер прокручує сторінку до елемента з таким id
+
+
 ## Крок 6. Перевірка семантичної структури
 
 1. Відкрийте `index.html` у браузері.
@@ -112,7 +118,7 @@
 
 ```bash
 git add .
-git commit -m "Оновлення проекту"
+git commit -m "lesson5"
 git push  опиши цей крок для першого уроку
 
 ```

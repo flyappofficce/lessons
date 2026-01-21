@@ -85,7 +85,7 @@
 
 ```bash
 git add .
-git commit -m "Оновлення проекту"
+git commit -m "lesson4"
 git push  опиши цей крок для першого уроку
 
 ```
