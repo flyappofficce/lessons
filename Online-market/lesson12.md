@@ -27,8 +27,9 @@ Padding — це простір **всередині елемента**.
 
 Приклад:
 ```css
-.product {
+.product-card {
   padding: 16px;
+   margin: 16px;
 }
 ```
 Текст усередині картки товару не прилипатиме до країв.
@@ -43,7 +44,7 @@ Margin — це простір **ззовні елемента**.
 
 Приклад:
 ```css
-.product {
+.product-card {
   margin: 16px;
 }
 ```
@@ -55,7 +56,7 @@ Margin — це простір **ззовні елемента**.
 
 Приклад:
 ```css
-.product {
+.product-card {
   border: 1px solid #ddd;
 }
 ```
@@ -65,7 +66,7 @@ Margin — це простір **ззовні елемента**.
 
 Приклад:
 ```css
-.product {
+.product-card {
   width: 300px;
 }
 ```
@@ -96,7 +97,7 @@ Box Model робить магазин:
 
 ```bash
 git add .
-git commit -m "Оновлення проекту"
+git commit -m "lesson12"
 git push  опиши цей крок для першого уроку
 
 ```
