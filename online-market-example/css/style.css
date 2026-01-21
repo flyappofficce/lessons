@@ -10,17 +10,28 @@ body {
   padding: 0;
 }
 
-/* Заголовки та навігація */
 header {
   background-color: #b6bdd4;
   padding: 1rem;
   text-align: center;
 }
 
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color:rgb(94, 121, 185);
+}
+
 header nav a {
   margin: 0 1rem;
   text-decoration: none;
   color: #161718;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #1e40af;
 }
 
 /* Секція товарів */
@@ -36,28 +47,90 @@ header nav a {
   background-color: #ffffff;
   border: 1px solid #ccc;
   border-radius: 8px;
-  width: 200px;
+  width: 220px;
   padding: 1rem;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Зображення товару */
 .product-card img {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
+  transition: transform 0.3s ease;
 }
 
-.product-card a {
+.product-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Заголовки та опис */
+.product-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Кнопка */
+.product-card a,
+.product-card button {
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
   background-color: #3b82f6;
   color: #ffffff;
   text-decoration: none;
+  border: none;
   border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.product-card a:hover {
+.product-card a:hover,
+.product-card button:hover {
   background-color: #1e40af;
+  transform: translateY(-2px);
+}
+
+/* Секції */
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+section img{
+  width: 300px;
+  height: 300px;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+
+  header nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
 }
