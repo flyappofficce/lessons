@@ -33,7 +33,7 @@
 ```html
 <!-- Меню навігації -->
 <nav>
-  <a href="products/categories.html">Категорії товарів</a>
+  <a href="/products/categories.html">Категорії товарів</a>
 </nav>
 ```
 ## Крок 3. Сторінка “Кроки покупки”
@@ -53,8 +53,8 @@
 3. Додайте посилання на цю сторінку в меню index.html
 ```html
 <nav>
-  <a href="products/categories.html">Категорії товарів</a>
-  <a href="products/purchase_steps.html">Як купити</a>
+  <a href="/products/categories.html">Категорії товарів</a>
+  <a href="/products/purchase_steps.html">Як купити</a>
 </nav>
 ```
 ## Крок 4. Таблиці характеристик товарів
