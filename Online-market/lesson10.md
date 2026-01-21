@@ -31,7 +31,7 @@ p {
 Приклад:
 ```css
 .menu {
-  background-color: rgb(184, 171, 158);
+ background-color: #ecf0f1;
 }
 ```
 
