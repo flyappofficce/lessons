@@ -71,7 +71,7 @@ CSS-клас — це ім’я, яке ми даємо елементу,
 
 ```css
 .container {
-  max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
 }
 ```
